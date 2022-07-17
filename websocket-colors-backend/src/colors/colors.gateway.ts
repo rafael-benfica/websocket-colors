@@ -10,7 +10,6 @@ import { Server, Socket } from 'socket.io';
 
 @WebSocketGateway({
   cors: true,
-  namespace: 'colors',
 })
 export class ColorsGateway {
   static color = '#FFFFFFFF';

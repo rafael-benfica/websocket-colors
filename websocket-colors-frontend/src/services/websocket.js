@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
 
-const socket = io("http://192.168.0.20:3000/colors");
+const socket = io("http://192.168.0.8:3000/");
 
 export default socket
